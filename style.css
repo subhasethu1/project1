@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  overflow-x: hidden;
+  background: black;
+}
+
+/* Scroll length (increase if needed) */
+.scroll-area {
+  height: 600vh;
+}
+
+/* Canvas stays fixed */
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
